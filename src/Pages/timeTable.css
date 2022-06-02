@@ -1,12 +1,13 @@
 .table {
-    width: 90vw;
+    width: 95vw;
     margin:auto;
-    height: 80vh;
+    height: auto;
     border-collapse:collapse;
     table-layout:fixed;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     padding: 40px;
-    margin-top: 40px;
+    /* margin-top: 40px;
+    margin-bottom: 40px; */
     background-color: white;
     
 }
@@ -14,14 +15,14 @@
 .table tr {
     border-bottom: 1px solid grey;
     text-align: center;
-    height: 12%;
+    height: 60px;
     
 }
 
 .table th{
     font-weight: bolder;
     font-size: 1.2em;
-    padding: 4px 0 4px 0;
+    padding: 4px 0 8px 0;
 }
 
 .table tbody {
@@ -29,5 +30,6 @@
 }
 
 .table td {
-    padding: 2px 0 4px 0;
+    padding: 2px 0 8px 0;
+   
 }

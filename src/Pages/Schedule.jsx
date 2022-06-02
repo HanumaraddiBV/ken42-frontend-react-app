@@ -58,60 +58,72 @@ export const Schedule = () => {
     <>
       <div className="container">
       <h1>Add Schedule</h1>
+        <p>Department Name</p>
         <input
           type="text"
           placeholder="Add Department Name"
           onChange={(e) => setDept(e.target.value)}
         ></input>
+        <p>Course ID</p>
         <input
           type="text"
           placeholder="Enter Course ID"
           onChange={(e) => setCourseId(e.target.value)}
         ></input>
+        <p>Course Name</p>
         <input
           type="text"
           placeholder="Enter Course Number"
           onChange={(e) => setCourseNo(e.target.value)}
         ></input>
+        <p>Maximum Number of students</p>
         <input
           type="Number"
           placeholder="Maximum number of students"
           onChange={(e) => setMaxNoStd(e.target.value)}
         ></input>
+        <p>Class Room Name</p>
         <input
           type="text"
           placeholder="Enter Room Name"
           onChange={(e) => setRoomName(e.target.value)}
         ></input>
+        <p>Class Room Capacity</p>
         <input
           type="Number"
           placeholder="Enter Room Capacity"
           onChange={(e) => setRoomCapacity(e.target.value)}
         ></input>
+        <p>Instructor Name</p>
         <input
           type="text"
           placeholder="Enter Instructor Name"
           onChange={(e) => setInstructorName(e.target.value)}
         ></input>
+        <p>Instructor ID</p>
         <input
           type="text"
           placeholder="Enter InstructorID"
           onChange={(e) => setInstructorId(e.target.value)}
         ></input>
+        <p>Meeting Days</p>
         <select>
           <option value="TTH">"TTH"</option>
           <option value="MWF">"MWF"</option>
         </select>
+        <p>Start Time</p>
         <input
           type="text"
           placeholder="Enter Start time (Time is 24 hour format) eg: 13:00"
           onChange={(e) => setStartTime(e.target.value)}
         ></input>
+        <p>End Time</p>
         <input
           type="text"
           placeholder="Enter End time (Time is 24 hour format) eg: 14:00"
           onChange={(e) => setEndTime(e.target.value)}
         ></input>
+        <p>Meeting ID</p>
         <input
           type="text"
           placeholder="Enter Meeting Id"
