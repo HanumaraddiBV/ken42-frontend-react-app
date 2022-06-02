@@ -1,7 +1,7 @@
 # ken42-frontend-react-app
 This is a Time Table generator app for school institutes where Time Table can be generated with some default parameters.
 
-<img src="https://photos.app.goo.gl/NLE8TAyorBu8e3ud7" />
+<img src="./images/TimeTable.png" />
 
 # How to setup and use:
 
